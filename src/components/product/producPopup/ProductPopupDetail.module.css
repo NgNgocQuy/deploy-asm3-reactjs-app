@@ -1,0 +1,119 @@
+.__modal {
+  position: absolute;
+}
+
+/*  */
+.__content-fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+}
+.__content-fixed-hidden {
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  z-index: 100;
+  animation-duration: 0.5s;
+  animation-name: close-1;
+  opacity: 0;
+}
+/*  */
+.__black-drop {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.__black-drop-hidden {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  animation-duration: 0.5s;
+  animation-name: close-1;
+}
+/*  */
+.__close-modal {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-1rem, 0.8rem);
+  z-index: 110;
+}
+.__modalDetail {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  width: 60rem;
+  /* height: 40rem; */
+  padding-bottom: 3rem;
+  animation-duration: 0.5s;
+  animation-name: drop-1;
+  opacity: 1;
+}
+.__modalDetail-hidden {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -60%);
+  background-color: rgb(255, 255, 255);
+  width: 60rem;
+  /* height: 40rem; */
+  animation-duration: 0.5s;
+  animation-name: drop-up-1;
+  opacity: 0;
+}
+.__modalDetail img {
+  width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+}
+@media screen and (max-width: 996px) {
+  .__modalDetail {
+    width: 90% !important;
+    height: auto !important;
+  }
+}
+/*  */
+
+@keyframes drop-1 {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -60%);
+    /* transform: translateY(-10%); */
+  }
+  100% {
+    transform: translate(-50%, -50%);
+    /* transform: translateY(0%); */
+    opacity: 1;
+  }
+}
+@keyframes close-1 {
+  0% {
+    /* display: block; */
+    opacity: 1;
+  }
+  100% {
+    /* display: none; */
+    opacity: 0;
+  }
+}
+
+@keyframes drop-up-1 {
+  0% {
+    transform: translate(-50%, -50%);
+
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(-50%, -60%);
+    opacity: 0;
+  }
+}

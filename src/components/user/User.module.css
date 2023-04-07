@@ -1,0 +1,9 @@
+.__bg-image {
+  background-color: rgba(255, 255, 255, 0.786);
+  width: 100%;
+  background-repeat: repeat-y;
+  background-position: center;
+}
+.__focus:focus {
+  outline: none;
+}
