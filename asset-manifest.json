@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.9369cc2e.css",
-    "main.js": "/static/js/main.fd20e014.js",
-    "static/js/787.18f3b8b9.chunk.js": "/static/js/787.18f3b8b9.chunk.js",
-    "index.html": "/index.html",
-    "main.9369cc2e.css.map": "/static/css/main.9369cc2e.css.map",
-    "main.fd20e014.js.map": "/static/js/main.fd20e014.js.map",
-    "787.18f3b8b9.chunk.js.map": "/static/js/787.18f3b8b9.chunk.js.map"
+    "main.css": "/NgNgocQuy/deploy-asm3-reactjs-app/static/css/main.9369cc2e.css",
+    "main.js": "/NgNgocQuy/deploy-asm3-reactjs-app/static/js/main.ec04de99.js",
+    "static/js/787.18f3b8b9.chunk.js": "/NgNgocQuy/deploy-asm3-reactjs-app/static/js/787.18f3b8b9.chunk.js",
+    "index.html": "/NgNgocQuy/deploy-asm3-reactjs-app/index.html",
+    "main.9369cc2e.css.map": "/NgNgocQuy/deploy-asm3-reactjs-app/static/css/main.9369cc2e.css.map",
+    "main.ec04de99.js.map": "/NgNgocQuy/deploy-asm3-reactjs-app/static/js/main.ec04de99.js.map",
+    "787.18f3b8b9.chunk.js.map": "/NgNgocQuy/deploy-asm3-reactjs-app/static/js/787.18f3b8b9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9369cc2e.css",
-    "static/js/main.fd20e014.js"
+    "static/js/main.ec04de99.js"
   ]
 }
